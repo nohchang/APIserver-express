@@ -1,0 +1,7 @@
+{
+    // "assumptions": {
+    //     "setPublicClassFields": true
+    // },
+    "presets": ["@babel/preset-env"],
+    // "plugins": [["@babel/plugin-proposal-decorators", {"decoratorsBeforeExport": false,  "legacy": true }]]
+}

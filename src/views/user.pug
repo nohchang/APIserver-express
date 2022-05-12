@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title} page
+  input(
+    type='text'
+    name='user_id'
+    placeholder='id'
+  )
+  br
+  input(
+    type='text'
+    name='user_password'
+    placeholder='password'
+  )
+  //- br
+  //- input(
+  //-   type='text'
+  //-   name='user_phonenum'
+  //-   placeholder='phonenum'
+  //- )
+  br
+  button(
+    type='button'
+  ) submit
